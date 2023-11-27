@@ -8,12 +8,6 @@ use Carbon\Carbon;
 
 class DashboardController extends Controller
 {
-
-        //TODO: 
-        //Add Unit Tests
-        //Clean code and Comments
-        //Put on GitLabs
-    
     //Get and displays all teachers for the spesific school
     public function index(){        
 
@@ -40,9 +34,6 @@ class DashboardController extends Controller
         //Using Carbon to get current date
         //Ideally would pass in the date so the user could see any weeks classes
         $date = Carbon::today();
-
-        //REMOVE AFTER TESTING
-        $date->subDays(10);
         
         $client = new \Wonde\Client(env('API_TOKEN')); 
     
