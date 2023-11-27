@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.class-card{
+    max-width: 16rem;
+    margin-bottom: 12px;
+}
+
+.class-card ul{
+    padding: 12px;
+}
+
+
+.day-card{
+    max-width: 20rem;
+    flex-direction: column;
+}
+
+.teacher-overview{
+    display: flex;
+    flex-direction: row;
+}
